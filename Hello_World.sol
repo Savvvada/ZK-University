@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
+import "hardhat/console.sol"; // optional inclusion, used for hardhat setups
 
 contract Hello_World {
     uint private _toStore; // although the assignmetn didn't explicitly state, I suppose a field variable for the Hello World Contract is necessary, I opted to make the variable private.
